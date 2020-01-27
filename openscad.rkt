@@ -48,3 +48,9 @@
 ;; BOLEAN OPERATIONS
 (define (union fst snd)
   (format "union() {\n~a~a}\n" fst snd))
+
+(define (difference fst snd)
+  (format "difference() {\n~a~a}\n" fst snd))
+
+(define (intersection fst snd)
+  (format "intersection() {\n~a~a}\n" fst snd))
